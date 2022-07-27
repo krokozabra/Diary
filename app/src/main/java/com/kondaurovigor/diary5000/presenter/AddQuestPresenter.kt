@@ -18,6 +18,7 @@ class AddQuestPresenter(model: QuestModel) {
 
     fun viewIsReady() {
         //пока не знаю, какой метод запускать, если это вообще нужно
+        view?.showDate()
     }
 
     fun clickDate() {
